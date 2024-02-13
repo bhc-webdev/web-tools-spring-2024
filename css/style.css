@@ -1,0 +1,63 @@
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    background-color: #791e1e;
+}
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+    color: salmon;
+    margin: 0;
+    padding: .25em;
+}
+
+h2, h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 8px;;
+}
+
+h2 {
+    color:#1d751d;
+    font-size: 2.5em;
+}
+
+h3 {
+    color: rgb(225, 240, 225);
+    background-color: #1d751d;
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.special {
+	color: #660000;
+}
+
+a:link { color:#D60000; } /* unvisited link */
+a:visited { color:#00FF00; } /* visited link */
+a:hover { color:#FF00FF; } /* mouse over link */
+a:active { color:#0000FF; }  /* selected link */
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer {
+    margin: 8px auto 0px;
+    padding: 18px;
+}
+
+footer > h2, p {
+    margin: 0;
+    padding: 0;
+}
