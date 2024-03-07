@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(356, 83%, 97%);
+}
+
+main {
+    width: 60vw;
+    margin: auto;
+}
+
+aside {
+    width: 20vw;
+    float: right;
+    position: sticky;
+    top: 40px;
+}
+
+section {
+    clear: both;
+}
+
+.alignText {
+    margin: 0;
+    position: relative;
+    top: 15%;
+    /* left: 30%; */
+}
+
+#logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+h1 {
+    margin: 0;
+    padding: .25em;
+}
+
+h2,
+h3 {
+    padding: 8px;
+    ;
+}
+
+.float-left {
+    float: left;
+}
+
+footer {
+    margin: 8px auto 0px;
+    padding: 18px;
+}
+
+footer>h2,
+footer>p {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+    <header>
+        <h1>Santa Claus</h1>
+        <img id="logo" src="images/santa-head-shot.gif" alt="Santa Logo">
+    </header>
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="contact-us.html">Contact</a>
+        <a href="about-us.html">About</a>
+    </nav>
+    
+    <main>
+        <h2>Contact Us</h2>
+        <fieldset>
+            <legend>Webform Mailer</legend>
+            <form action="mailto:sherd@dallascollege.edu" method="post">
+                <h3>Personal Information</h3>
+                <p>
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname" required autofocus>
+                </p>
+                <p>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </p>
+
+                <h3>Information Request</h3>
+                <p>What is the nature of your request?</p>
+                <p>
+                    <label for="question">Question</label>
+                    <input type="radio" name="requestType" id="question" value="question">
+                    <br>
+                    <label for="comment">Comment</label>
+                    <input type="radio" name="requestType" id="comment" value="comment">
+                </p>
+                <p>What kind of gifts do you like?</p>
+                <p>
+                    <input type="checkbox" name="toys" id="toys" value="toys">
+                    <label for="toys">Toys</label>
+                    <br>
+                    <input type="checkbox" name="tools" id="tools" value="tools">
+                    <label for="tools">Tools</label>
+                    <br>
+                    <input type="checkbox" name="realestate" id="realestate" value="realestate">
+                    <label for="realestate">Real Estate</label>
+                </p>
+                <p>When does your family open presents?</p>
+                <p>
+                    <label for="openPresents"></label>
+                    <select name="openPresents" id="openPresents">
+                        <option value="">&larr; Select One &rarr;</option>
+                        <option value="Christmas Day">Christmas Day</option>
+                        <option value="Christmas Eve">Christmas Eve</option>
+                        <option value="kidsChoice">When parents aren't looking</option>
+                    </select>
+                </p>
+                <p>What is your wish list?</p>
+                <p>
+                    <textarea name="wishlist" id="wishlist" cols="30" rows="10"
+                        placeholder="Add items from your wish list."></textarea>
+                </p>
+                <input type="submit" name="submit" id="" value="Send Request">
+                &emsp;
+                <input type="reset" name="reset" value="Clear Form">
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <h2 class="special">&copy; WebDev</h2>
+        <p class="special">Contact Us using Email</p>
+    </footer>
+</body>
+
+</html>
