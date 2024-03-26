@@ -17,12 +17,26 @@ header {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
+.w3-medRed {
+    background-color: #950E17;
+    color: white;
+}
+
+.w3-text-medRed {
+    color: #950E17;
+}
+
+.w3-font-size {
+    font-size: 3em;
+    font-weight: 900;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #34090C;
     overflow: hidden;
     position: sticky;
     top: 0px;
+    z-index: 5;
 }
 
 /* Style the links inside the navigation bar */

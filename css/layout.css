@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    width: 60vw;
+    max-width: 80vw;
     margin: auto;
 }
 
@@ -26,14 +26,15 @@ section {
     margin: 0;
     position: relative;
     top: 15%;
-    /* left: 30%; */
+    right: 0px;
+    max-width: 66%;
 }
 
 #logo {
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 1;
+    z-index: 10;
 }
 
 h1 {
@@ -49,6 +50,8 @@ h3 {
 
 .float-left {
     float: left;
+    margin: 0;
+    padding: 8px;
 }
 
 footer {

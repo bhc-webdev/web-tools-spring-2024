@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+    <title>About Stephen Herd</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -23,40 +23,148 @@
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Roboto", sans-serif
+        }
+    </style>
 </head>
-<body>
-    <Header>
-        <h1>About Us</h1>
+
+<body class="w3-light-grey">
+
+    <header>
+        <h1 class="w3-text-light-green w3-cursive w3-font-size">Stephen Herd</h1>
         <img id="logo" src="images/santa-head-shot.gif" alt="Santa Logo">
-    </Header>
+    </header>
     <nav class="topnav">
-        <a href="index.html">Home</a>
-        <a href="contact-us.html">Contact</a>
-        <a href="about-us.html">About</a>
+        <a href="index.html"><i class="fa fa-home"></i> Home</a>
+        <a href="contact-us.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+            Contact</a>
+        <a href="about-us.html"><i class="fa fa-user" aria-hidden="true"></i> About</a>
     </nav>
-    
+    <!-- Page Container -->
     <main>
-        <h2>Fake Page Heading</h2>
-        <section>
-            <h3>Section Heading 1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, voluptatum doloremque eaque sequi impedit mollitia corporis exercitationem corrupti maxime. Illo nisi cum ipsam minima, culpa temporibus sequi consectetur perferendis aperiam?</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, at? Eligendi quia autem corrupti laboriosam? Veritatis voluptates inventore nesciunt, consequuntur provident ea exercitationem tempora distinctio minus repudiandae magnam, quis repellat.</p>
-        </section>
-        <section>
-            <h3>Section Heading 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, voluptatum doloremque eaque sequi impedit mollitia corporis exercitationem corrupti maxime. Illo nisi cum ipsam minima, culpa temporibus sequi consectetur perferendis aperiam?</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, at? Eligendi quia autem corrupti laboriosam? Veritatis voluptates inventore nesciunt, consequuntur provident ea exercitationem tempora distinctio minus repudiandae magnam, quis repellat.</p>
-        </section>
-        <section>
-            <h3>Section Heading 3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, voluptatum doloremque eaque sequi impedit mollitia corporis exercitationem corrupti maxime. Illo nisi cum ipsam minima, culpa temporibus sequi consectetur perferendis aperiam?</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, at? Eligendi quia autem corrupti laboriosam? Veritatis voluptates inventore nesciunt, consequuntur provident ea exercitationem tempora distinctio minus repudiandae magnam, quis repellat.</p>
-        </section>
+
+        <!-- The Grid -->
+        <div class="w3-row-padding">
+
+            <!-- Left Column -->
+            <div class="w3-third">
+
+                <div class="w3-white w3-text-grey w3-card-4">
+                    <div class="w3-display-container">
+                        <img src="images/stephenherd.jpg" style="width:100%" alt="Avatar">
+                        <!-- <div class="w3-display-bottomleft w3-container w3-text-light-grey">
+                            <h2 class="w3-text-light-grey">Stephen Herd</h2>
+                        </div> -->
+                    </div>
+                    <div class="w3-container">
+                        <p class="w3-large w3-text-theme"><b><i class="fa fa-user fa-fw w3-margin-right w3-text-medRed"></i>Stephen Herd</b></p>
+                        <p>I'm going to talk about my professional goals. I am studying to be a web developer. I have leaned many development skills and acquired knowledge.</p>
+                        
+                        <br>
+                        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-medRed"></i>Web Developer</p>
+                        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-medRed"></i>Dallas, TX</p>
+                        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-medRed"></i>fake@gmail.com</p>
+                        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-medRed"></i>1224435534</p>
+                        <hr>
+
+                        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-medRed"></i>Skills</b></p>
+                        <p>HTML5</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-medRed" style="width:90%">90%</div>
+                        </div>
+                        <p>CSS3</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-medRed" style="width:80%">
+                                <div class="w3-center w3-text-white">80%</div>
+                            </div>
+                        </div>
+                        <p>VS Code</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-medRed" style="width:75%">75%</div>
+                        </div>
+                        <p>Git/GitHub</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-medRed" style="width:60%">60%</div>
+                        </div>
+                        <br>
+                    </div>
+                </div><br>
+
+                <!-- End Left Column -->
+            </div>
+
+            <!-- Right Column -->
+            <div class="w3-twothird">
+
+                <div class="w3-container w3-card w3-white w3-margin-bottom">
+                    <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-medRed"></i>Work Experience</h2>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+                        <h6 class="w3-text-medRed"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-medRed w3-round">Current</span></h6>
+                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+                        <h6 class="w3-text-medRed"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+                        <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+                        <h6 class="w3-text-medRed"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+                    </div>
+                </div>
+
+                <div class="w3-container w3-card w3-white">
+                    <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-medRed"></i>Education</h2>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+                        <h6 class="w3-text-medRed"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+                        <p>Web Development! All I need to know in one place</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>London Business School</b></h5>
+                        <h6 class="w3-text-medRed"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+                        <p>Master Degree</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>School of Coding</b></h5>
+                        <h6 class="w3-text-medRed"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+                        <p>Bachelor Degree</p><br>
+                    </div>
+                </div>
+
+                <!-- End Right Column -->
+            </div>
+
+            <!-- End Grid -->
+        </div>
+
+        <!-- End Page Container -->
     </main>
+
     <footer>
         <h2 class="special">&copy; WebDev</h2>
         <p class="special">Contact Us using Email</p>
     </footer>
+
 </body>
+
 </html>
